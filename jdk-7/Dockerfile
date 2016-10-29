@@ -1,4 +1,4 @@
-FROM java:7
+FROM openjdk:7
 MAINTAINER Tobias Raatiniemi <raatiniemi@gmail.com>
 
 ENV GRADLE_VERSION 2.14.1
