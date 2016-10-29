@@ -2,7 +2,7 @@ FROM java:7
 MAINTAINER Tobias Raatiniemi <raatiniemi@gmail.com>
 
 ENV GRADLE_VERSION 2.14.1
-ENV GRADLE_HOME /opt/gradle-2.14.1
+ENV GRADLE_HOME /opt/gradle-${GRADLE_VERSION}
 ENV GRADLE_USER_HOME /cache
 ENV BUILD_HOME /build
 
