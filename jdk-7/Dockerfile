@@ -1,7 +1,7 @@
 FROM openjdk:7
 MAINTAINER Tobias Raatiniemi <raatiniemi@gmail.com>
 
-ENV GRADLE_VERSION 3.4.1
+ENV GRADLE_VERSION 4.1
 ENV GRADLE_HOME /opt/gradle-${GRADLE_VERSION}
 ENV GRADLE_BIN_ZIP gradle-${GRADLE_VERSION}-bin.zip
 ENV GRADLE_USER_HOME /cache
